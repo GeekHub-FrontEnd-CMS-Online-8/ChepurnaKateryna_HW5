@@ -1,0 +1,348 @@
+
+  
+  @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+  * {
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Lato', sans-serif;
+      min-width: 100%;
+      max-width: 1600px;
+  }
+  
+  div {
+    box-sizing: border-box;
+  }
+  .container {
+      width: 1140px;
+      margin: 0 auto;
+  }
+  
+  header {
+      background-color: #f6f9f9;
+      height: 100px;
+  }
+  
+  .logo {
+      margin: 32px 0 31px ;
+  }
+  
+  .title {
+      background: url('img/bg.png') no-repeat center top/cover;
+      height: 800px;
+  }
+  
+  .title-h1 {
+      font-size: 120px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff;
+      padding-top: 194px;
+  }
+  
+  .title .underline {
+    content: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 2px;
+    background-color: #15a4fa;
+    margin: 14px 270px 0;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .title-text {
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      padding-top: 39px;
+      text-align: center;
+  }
+  
+  .title-button {
+      padding: 20px 33px 19px 35px;
+      border: 1px solid #15a4fa;
+      border-radius: 3px;
+      background: transparent;
+      color: #FFF;
+      font-size: 18px;
+      letter-spacing: 0.45px;
+      display: block;
+      margin: 65px auto 0;
+  }
+  
+  .title-button:hover {
+      background: #15A4FA
+  }
+  .title-arrow {
+      margin: 179px 556px ;
+      display: inline-block;
+      width: 20px;
+      height: 12px;
+   }
+  
+  .about {
+      background-color: #f6f9f9;
+      height: 340px;
+  }
+
+  .about-content {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .about-h2 {
+      width: auto;
+      color: #2d3950;
+      font-size: 40px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      padding-top: 81px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .about-text {
+      text-align: center;
+      width: 1101px;
+      height: 81px;
+      color: #999;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+      line-height: 1.7;
+      margin-top: 31px;
+      
+  }
+  
+  .feature {
+      background-color: #FFF;
+      height: 340px;   
+  }
+  .feature-content{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+  }
+  .content-flex {
+    width: 280px;
+    height: 210px;
+    margin: 60px 0;
+    text-align: center;
+  }
+
+  .content-flex__h4 {
+    color: #2D3950;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    margin-top: 30px;
+  }
+
+  .content-flex__text {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.38px;
+    margin-top: 20px;
+  }
+
+
+  .portfolio {
+      background-color: #F6F9F9;
+      height: 900px;
+  }
+  
+  .portfolio-textarea {
+      text-align: center;
+  }
+  
+  .portfolio-textarea__h2 {
+      width: auto;
+      padding-top: 65px;
+      height: 37px;
+      color: #2d3950;
+      font-size: 41px;
+      font-weight: 400;
+      letter-spacing: 1.02px;
+  }
+  
+  .portfolio-textarea__text{
+      width: auto;
+      height: 14px;
+      color: #909090;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0.38px;
+      padding-top: 60px;
+  }
+
+  .portfolio-flex1,
+  .portfolio-flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+
+  .photo {
+      height: 260px;
+      width: 360px;
+      padding-top: 80px;
+  }
+
+  .layer img{
+      position:absolute;
+  }
+  .layer img.portfolio_background {
+      opacity:0;
+  }
+  .layer:hover img.portfolio_background       {
+      opacity:1;
+  }
+  
+  .contact {
+      background: url('img/bg_contact.png') no-repeat top/cover;
+      height: 700px;
+  }
+  
+  .contact-layer { 
+      background-color: #2D3950;
+      opacity: 0.9;
+      height: 700px;
+      
+  }
+  
+  .contact_title     {
+      padding-top: 70px;
+      text-align: center;
+      font-weight: 400;
+      color: #999;
+  }
+  
+  .contact_title h2      {
+      color: #FFF;
+      font-size: 41px;
+      letter-spacing: 1.02px;
+  }
+  
+  .contact_title p      {
+      font-size: 15px;
+      letter-spacing: 0.38px;
+      padding-top: 21px;
+  }
+  
+.contact_form {
+	width: 555px;
+	height: 330px;
+    margin: 35px auto;
+    position: relative;
+}
+
+.form_place  input {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 22px;
+    background: transparent;
+	border-radius: 2px;
+	border: 1px solid #999;
+	padding: 25px 20px 25px 20px;
+}
+
+.form_place  textarea {
+    width: 100%;
+    height: 160px;
+    box-sizing: border-box;
+    margin: 22px 0 39px;
+    background: transparent;
+	border-radius: 2px;
+	border: 1px solid #999;
+	padding: 25px 20px 25px 20px;
+}
+
+.form_place p {
+	color: #999;
+	font-size: 15px;
+	letter-spacing: 0.38px;
+}
+
+.form_place input[type="search"],input[type="email"], input[type="text"], textarea {
+	color: #999;
+	font-size: 15px;
+	letter-spacing: 0.38px;
+}
+
+.form_place input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+	border: 1px solid #9AA1AB;
+    background-color: #F6F9F9;
+}
+
+  .form_place span {
+      color: #FFF;
+      font-size: 15px;
+      letter-spacing: 0.38px;
+      margin-left: 16px;
+      margin-right: 232px;
+  }
+  
+  .button-submit {
+      height: 45px;
+      width: 145px;
+      display: block;
+      float: right;
+      border: 1px solid #15A4FA;
+      border-radius: 3px;
+      background: transparent;
+      color: #FFF;
+      font-size: 18px;
+      margin-top: -36px; 
+      letter-spacing: 0.45px;
+      vertical-align: center;
+  }
+  
+  .button-submit:hover {
+      background: #15A4FA
+  }
+  
+  .footer {
+    height: 90px;
+    background-color: #F6F9F9;
+  }
+  .footer-text p {
+      float: left;
+      margin: 38px 0;
+      width: auto;
+      height: 14px;
+      color: #999;
+      font-size: 15px;
+      letter-spacing: 0.38px;
+  }
+
+  .footer-icon {
+      float: right;
+      margin: 25px 0;
+      display: inline;
+  }
+
+  .footer-soc__pict {
+    display: inline;
+  }
